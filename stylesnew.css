@@ -1,0 +1,45 @@
+body{
+    background: black;
+    color: whitesmoke;
+}
+.boxes{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+.cover{
+    background-image: url('pic.png');
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.img{
+    border-radius: 200px;
+    margin-left: 28px;
+    margin-top: 85px;
+    border: 2px solid rgb(21, 15, 15);
+    width: 150px;
+    height: 150px;
+}
+.main{
+    height: 450px;
+    flex: 3;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: rgb(19, 21, 24);
+
+}
+.side{
+    background: rgb(19, 21, 24);
+    border: 1px solid black;
+    height: 600px;
+    flex: 1;
+    border-radius: 20px;
+    text-align: center;
+}
+.text{
+    margin-left: 20px;
+    margin-top: 60px;
+}
